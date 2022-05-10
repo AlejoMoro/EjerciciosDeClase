@@ -17,9 +17,9 @@ let archivoTareas = {
     filtrarPorEstado : function (estado){
         let tareas = this.leerArchivo();        
         let tareasFiltradas = tareas.filter (function(elemento){
-        elemento.estado == 'pendiente';
+        return elemento.estado === estado;
         });
-         console.log (tareasFiltradas);
+         //console.log (tareasFiltradas);
         return tareasFiltradas;
     }
 
