@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+}
+div{
+    margin:20px;
+}
+div input{
+    padding: 1vw;
+    width: 50vw;
+    border-radius: 5px;
+    border-color: white;
+}
+h4{
+    text-align: left;
+    padding-left: 20%;
+}
+.radio{
+    width: 40px;
+    margin-top: 20px;
+}
+.checkbox{
+    display: block;
+    text-align: left;
+    padding-left: 20%;
+}
+.check{
+   width: auto;
+   margin-top: 10px;
+}
+button{
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #1259c3;
+}
