@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+}
+main section{
+    display: block;
+    text-align: center;
+}
+div{
+    margin-top: 50px;
+}
+.boton{
+    width: 50vw;
+    color: white;
+    font-weight: bold;
+}
+.boton a:visited{
+    color: white;
+}

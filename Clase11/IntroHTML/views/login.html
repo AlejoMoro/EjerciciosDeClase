@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro MercadoLiebre</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/styles_register.css">
+    <link rel="stylesheet" href="/CSS/styles_login.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +19,13 @@
     <header class="fondo-amarillo" id="encabezado">
         <!--logotipo-->
         <img class="logo" width="100%" src = "/imagenes/logo-mercado-liebre.svg">
-        <div class="form" action="#" method="GET">
-            <span class="input">Buscar productos, marcas y más</span>
-            <span class="submit"><i class="fa fa-search"></i></span>
-            
+        <div class="busqueda" action="#" method="GET">
+            <!-- <span class="input">Buscar productos, marcas y más</span>
+            <span class="submit"><i class="fa fa-search"></i></span>             -->
+            <form class="form" action="#" method="get">
+                <label for="busqueda"></label>
+                <input class="input" id="busqueda" type="text" name="busqueda" id="busqueda" placeholder="Buscar productos, marcas y más"><span class="submit"><i class="fa fa-search"></i></span></input>
+            </form>
         </div>
         <p class="comprarencuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjetas de credito </p>
         <nav>
@@ -41,9 +46,20 @@
         </div>
     </header>
     <main>
-        <form action="/login">
-            <input type="text" name="user" id="user" placeholder="Nombre de Usuario" required maxlength="25">
-            <input type="password" name="password"  id="password" placeholder="Escribe tu contraseña" required></input>
-            <button type="submit"><a href="/home">Enviar</a></button>
+        <section>
+            <form action="/login">
+            <div>
+                <input class="nombre" type="text" name="user" id="user" placeholder="Nombre de Usuario" required maxlength="25">
+            </div>
+            <div>
+                <input class="clave" type="password" name="password"  id="password" placeholder="Escribe tu contraseña" required></input>
+            </div>
+            <div>
+                <button class="boton" type="submit"><a href="/home">INGRESAR</a></button>
+            </div>
+            
+            
         </form>
+        </section>
+        
     </main>

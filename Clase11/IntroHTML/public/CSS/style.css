@@ -57,13 +57,13 @@ header .form .input{
     color: #666;
     padding: 5px;
     border-radius: 5px;
+    width: 100%;
 }
 header .form .submit{
     display: flex;
     background-color: #FFF;
     /* border: 1px solid #000; */
     color: #666;
-    width: 100%;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -123,6 +123,7 @@ article i{
 }
 .descuento{
     width: 70%;
+    text-align: center;
 }
 header{
     display: flex;
@@ -133,7 +134,16 @@ header .logo{
 }
 header .form{
     display: flex;
-    width: 48%;
+}
+.busqueda{
+    display: flex;
+    width: 30%;
+}
+.busqueda .form{
+    width: 100%;
+}
+.nav1 a, .nav2 a{
+    color: black;
 }
 @media (min-width: 361px){
     .descripcion{

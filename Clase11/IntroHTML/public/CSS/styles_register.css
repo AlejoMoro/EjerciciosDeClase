@@ -32,11 +32,15 @@ h4{
    width: auto;
    margin-top: 10px;
 }
-button{
+.boton{
     background-color: #1259c3;
     color: white;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
     border-color: #1259c3;
+    font-weight: bold;
+}
+.boton a:visited{
+    color: white;
 }
