@@ -17,7 +17,18 @@ div{
     width: 50vw;
     color: white;
     font-weight: bold;
+    transition: all 450ms;
 }
 .boton a:visited{
     color: white;
+}
+.boton:hover{
+    background-color: #0022AA;
+}
+footer{
+    width: auto;
+    justify-content:space-around
+}
+footer div{
+    width: 28%;
 }

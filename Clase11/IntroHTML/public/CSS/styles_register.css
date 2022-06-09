@@ -44,3 +44,11 @@ h4{
 .boton a:visited{
     color: white;
 }
+footer{
+    width: auto;
+    text-align: center;
+}
+footer div{
+    width: 28%;
+    padding: 100%;
+}

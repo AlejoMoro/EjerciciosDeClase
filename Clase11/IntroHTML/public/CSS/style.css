@@ -28,7 +28,9 @@ main section article i{
 }
 .comprarencuotas{
     font-size: 12px;
-    margin:auto
+    margin-left:50px;
+    align-items: center;
+    justify-items: center;
 }
 .nav1, .nav2 {
     font-size: 12px;
@@ -68,15 +70,15 @@ header .form .submit{
     justify-content: center;
     border-radius: 5px;
 }
-#menu{
+.burger-menu{
+    margin: auto;
+}
+.fas{
     background-color: #1259c3;
     color: white;
-    text-align: center;
-    margin-left:47%;
-    margin-right:47%;    
-    height: 25px;
-    border-radius: 5px;   
-    padding-top: 8px;
+    padding: 6px;
+    border-radius: 4px;
+    margin: auto;
 }
 .pie{
     text-align: center;
@@ -90,8 +92,11 @@ article{
     margin: 5px
 }
 footer{
-    margin: 80px;
     border: 30px;
+    margin-top: 40px;
+}
+footer div{
+    width:100%;
 }
 footer i{
     color: #1259c3;
@@ -138,6 +143,7 @@ header .form{
 .busqueda{
     display: flex;
     width: 30%;
+    margin: auto;    
 }
 .busqueda .form{
     width: 100%;
@@ -145,11 +151,17 @@ header .form{
 .nav1 a, .nav2 a{
     color: black;
 }
+.busqueda{
+    background-color: white;
+    border-radius: 5px;    
+}
+.form input{
+    border-style: none;
+}
 @media (min-width: 361px){
     .descripcion{
         display:block;
     }
-    article{box-shadow: 0px 0px 10px rgb(100, 100, 100);}
     nav{
         display: block;
     }
@@ -209,4 +221,40 @@ header .form{
     article{
         width: 20%;
     }
+    article{
+        color: white;
+    }
+    article .precio{
+        color: black;
+    }
+    article:hover{
+        color: black;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .desproduc  i{
+        transition: all 3s;
+    }
+    
+    .desproduc i:hover{
+        transform: rotateZ(-90deg);
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer div{
+        width: 33.33%;
+    }
+    #copyright{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+    }
+    footer div i:hover{
+        transition: all 450ms;
+    }
+    footer div i:hover{
+        color: #EAC926;
+    }
+    
 }
